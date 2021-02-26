@@ -34,11 +34,11 @@ button {
 
 .showcase {
   background: url("./images/room-1.jpg") no-repeat center/cover;
-  height: 500px;
+  height: 600px;
 }
 
 .showcase .overlay {
-  height: 500px;
+  height: 600px;
 }
 
 .showcase .overlay .text {
