@@ -44,3 +44,27 @@ button {
 .showcase .overlay .text {
   background-color: rgba(255, 255, 255, 0.6);
 }
+
+.rooms-showcase {
+  background: url("./images/room-2.jpg") no-repeat bottom/cover;
+  height: 400px;
+}
+
+.rooms-showcase .overlay {
+  height: 400px;
+}
+
+.rooms-showcase .overlay h3 {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+@media (min-width: 1280px) {
+  .rooms-showcase {
+    /* background: url("./images/room-2.jpg") no-repeat center/cover; */
+    height: 600px;
+  }
+
+  .rooms-showcase .overlay {
+    height: 600px;
+  }
+}
