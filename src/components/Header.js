@@ -19,7 +19,7 @@ const Header = () => {
                 to="/"
                 exact
                 className="px-3 py-2 rounded-lg border-2"
-                activeClassName="bg-active text-white"
+                activeClassName="bg-gray-300 text-white"
               >
                 Home
               </NavLink>
@@ -28,7 +28,7 @@ const Header = () => {
               <NavLink
                 to="/rooms"
                 className="px-3 py-2 rounded-lg border-2"
-                activeClassName="bg-active text-white"
+                activeClassName="bg-gray-300 text-white"
               >
                 Rooms
               </NavLink>
