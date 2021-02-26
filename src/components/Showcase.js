@@ -10,6 +10,9 @@ const Showcase = () => {
               Luxurious Rooms
             </h1>
             <div className="bg-primary h-1 w-20 mx-auto"></div>
+            <p className="text-center text-xl mt-2 md:text-2xl">
+              Book a room in one of Kenya's top-rated hotels
+            </p>
           </div>
         </div>
       </section>
