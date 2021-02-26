@@ -1,11 +1,46 @@
-/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Dosis&family=Libre+Baskerville:wght@700&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Libre Baskerville", sans-serif;
+}
+
+p,
+li,
+a,
+button {
+  font-family: "Dosis", sans-serif;
+}
+
+.bg-primary {
+  background-color: #250e07;
+}
+
+.bg-active {
+  background-color: #443734;
+}
+
+.text-primary {
+  color: #250e07;
+}
+
+.showcase {
+  background: url("./images/room-1.jpg") no-repeat center/cover;
+  height: 500px;
+}
+
+.showcase .overlay {
+  height: 500px;
+}
+
+.showcase .overlay .text {
+  background-color: rgba(255, 255, 255, 0.6);
 }
