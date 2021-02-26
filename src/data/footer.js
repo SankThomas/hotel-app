@@ -1,5 +1,6 @@
 import { v4 as uuidv4 } from "uuid"
 import { GrFacebook, GrInstagram, GrTwitter } from "react-icons/gr"
+import { VscGlobe } from "react-icons/vsc"
 
 export const footer = [
   {
@@ -34,5 +35,10 @@ export const icons = [
     id: uuidv4(),
     icon: <GrTwitter />,
     link: "https://twitter.com/TSBSankara",
+  },
+  {
+    id: uuidv4(),
+    icon: <VscGlobe />,
+    link: "https://tsbsankara.co.ke",
   },
 ]
