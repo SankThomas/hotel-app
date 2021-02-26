@@ -7,6 +7,7 @@ import Book from "./components/Book"
 import Features from "./components/Features"
 import Grid from "./components/Grid"
 import Comfy from "./components/Comfy"
+import Footer from "./components/Footer"
 
 // Pages
 import Rooms from "./pages/Rooms"
@@ -32,6 +33,7 @@ const App = () => {
         </Route>
         <Route path="/rooms:id">{/* <Room /> */}</Route>
       </Switch>
+      <Footer />
     </Router>
   )
 }
