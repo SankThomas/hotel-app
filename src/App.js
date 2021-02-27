@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 
 // Components
+import ScrollToTop from "./components/ScrollToTop"
 import Header from "./components/Header"
 import Showcase from "./components/Showcase"
 import Book from "./components/Book"
@@ -16,7 +17,7 @@ import Offers from "./components/Offers"
 const App = () => {
   return (
     <Router>
-      {/* ScrollToTop */}
+      <ScrollToTop />
       <Header />
 
       <Switch>
