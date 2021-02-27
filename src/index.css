@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Dosis&family=Libre+Baskerville:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Libre+Baskerville:wght@700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -17,7 +17,11 @@ p,
 li,
 a,
 button {
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+p {
+  font-size: 15px;
 }
 
 .bg-primary {
@@ -34,11 +38,11 @@ button {
 
 .showcase {
   background: url("./images/room-1.jpg") no-repeat center/cover;
-  height: 600px;
+  height: 400px;
 }
 
 .showcase .overlay {
-  height: 600px;
+  height: 400px;
 }
 
 .showcase .overlay .text {
@@ -59,8 +63,15 @@ button {
 }
 
 @media (min-width: 1280px) {
+  .showcase {
+    height: 600px;
+  }
+
+  .showcase .overlay {
+    height: 600px;
+  }
+
   .rooms-showcase {
-    /* background: url("./images/room-2.jpg") no-repeat center/cover; */
     height: 600px;
   }
 
