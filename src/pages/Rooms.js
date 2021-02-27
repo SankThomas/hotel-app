@@ -9,7 +9,7 @@ const Rooms = () => {
   return (
     <>
       <RoomsShowcase />
-      <section className="bg-gray-100 pt-10 pb-20 px-5 grid grid-cols-1 gap-10 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3 xl:px-32">
+      <section className="bg-gray-100 pt-10 pb-20 px-5 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:px-32">
         {cards.map((card) => {
           const { id, title, image, desc } = card
 
