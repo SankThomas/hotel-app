@@ -5,14 +5,14 @@ import BookNow from "./BookNow"
 const Header = () => {
   return (
     <>
-      <header className="flex items-center justify-between px-5 py-6">
+      <header className="flex flex-col items-center justify-between px-5 py-6 sm:flex-row">
         <div>
           <NavLink to="/" className="flex items-end">
             <h3 className="ml-2 text-2xl">Luxe</h3>
           </NavLink>
         </div>
 
-        <nav>
+        <nav className="mt-2 sm:mt-0">
           <ul className="flex items-center">
             <li className="mx-2">
               <NavLink
