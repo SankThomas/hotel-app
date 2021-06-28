@@ -13,6 +13,7 @@ import Footer from "./components/Footer"
 // Pages
 import Rooms from "./pages/Rooms"
 import Offers from "./components/Offers"
+import BookNow from "./pages/BookNow"
 
 const App = () => {
   return (
@@ -33,6 +34,9 @@ const App = () => {
           <Rooms />
         </Route>
         <Route path="/rooms:id">{/* <Room /> */}</Route>
+        <Route path="/book-now">
+          <BookNow />
+        </Route>
       </Switch>
       <Footer />
     </Router>
